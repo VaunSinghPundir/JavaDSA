@@ -1,6 +1,6 @@
 package Basic;
 
-public class array {
+public class Flatarray {
     public static void main(String[] args) {
 
         int [][] flat = new int[2][3];
@@ -10,7 +10,8 @@ public class array {
         flat [1][0] = 201;
         flat [1][1] = 202;
         flat [1][2] = 203;
-        /*for (int i=0; i<flat.length; i++){
+
+        for (int i=0; i<flat.length; i++){
             for (int j =0 ; j<flat[i].length; j++){
                 System.out.print (flat[i][j] ) ;
                 System.out.print(" ");
@@ -18,14 +19,8 @@ public class array {
             System.out.println("");
         }
 
-         */
 
-//        for (int[] el: flat){
-//            for (int i=0; i<flat[0].length; i++){
-//                System.out.println(el[i] + " ");
-//            }
-//            System.out.println("");
-//        }
+
 
     }
 }

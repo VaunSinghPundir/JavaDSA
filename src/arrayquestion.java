@@ -1,6 +1,3 @@
-import Basic.array;
-
-import java.util.Arrays;
 import java.util.Scanner;
 public class arrayquestion {
     public static void main(String[] args) {
