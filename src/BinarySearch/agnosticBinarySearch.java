@@ -5,9 +5,10 @@ public class agnosticBinarySearch {
     public static void main(String[] args) {
         // array is in Assending order
        // int[] arr = {1, 2, 3, 5, 7, 9, 12, 22, 33, 45, 50};
+        // int target = 22;
         // Array is in decending order
-        int [] arr = {50,45,33,22,15,10,5,2};
-        int target =45;
+        int [] arr = {99,75,50,45,33,22,18,15,10,5,2,0};
+        int target =75;
         int ans = binarysearch(arr, target);
         System.out.println(ans);
     }
