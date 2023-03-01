@@ -14,7 +14,7 @@ public class oddNumber {
                 sum = sum + i;
             }
         }
-        System.out.println("sum of odd number is :" +sum);
+        System.out.println(sum);
         return sum;
     }
     public static void main(String[] args) {

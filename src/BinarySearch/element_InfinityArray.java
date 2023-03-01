@@ -20,7 +20,7 @@ public class element_InfinityArray {
             // double the box value
             // end = previous end + sizeofbox*2
 
-            end = end - start + 1;
+            end = end +(end - start + 1)*2;
             start = newstart;
         }
         return binarysearch(arr,target,start,end);
