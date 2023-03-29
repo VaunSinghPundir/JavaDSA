@@ -25,6 +25,7 @@ public class bubbleSort {
                     }
                 }
             }
+
             bubblearr(arr);
         }
 
